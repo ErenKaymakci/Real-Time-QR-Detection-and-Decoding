@@ -1,4 +1,4 @@
-# Real Time QR Detection & Decoding
+# Real Time QR Detection & Decoding 🚀
 <a href='https://www.python.org/' target="_blank"><img alt='Python' src='https://img.shields.io/badge/Made_With Python-100000?style=for-the-badge&logo=Python&logoColor=white&labelColor=3774A7&color=FFD445'/></a>
 <a href='https://github.com/ErenKaymakci/Real-Time-QR-Detection-and-Decoding/blob/main/LICENSE' target="_blank"><img alt='' src='https://img.shields.io/badge/MIT_Lıcense-100000?style=for-the-badge&logo=&logoColor=white&labelColor=3774A7&color=000000'/></a>
 
@@ -46,4 +46,17 @@ pip install -r requirements.txt
 
 Detection parameters can be changed in here: 
 
-Decoding options can be comment/uncomment in here: 
+https://github.com/ErenKaymakci/Real-Time-QR-Detection-and-Decoding/blob/main/yolo.py#L16
+
+Decoding options can be changed with comment/uncomment in here: 
+
+https://github.com/ErenKaymakci/Real-Time-QR-Detection-and-Decoding/blob/main/main.py#L21
+
+## Results
+
+
+## Conclusion
+
+## License
+[MIT](https://github.com/ErenKaymakci/Real-Time-QR-Detection-and-Decoding/blob/main/LICENSE)
+
