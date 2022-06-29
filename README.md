@@ -20,4 +20,4 @@ We can basically define QR code like 2D arrays. QR codes range from 11x11(called
 
 The image in the below shows the constant areas in QR code:
 
-![image](/imgs/explained.jpg)
+![image](/imgs/explained.png)
