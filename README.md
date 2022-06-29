@@ -21,3 +21,29 @@ We can basically define QR code like 2D arrays. QR codes range from 11x11(called
 The image in the below shows the constant areas in QR code:
 
 ![image](/imgs/explained.png)
+
+
+
+## About Project
+- **Dataset**: I've mixed my custom data with this dataset: 
+https://www.kaggle.com/datasets/hamidl/yoloqrlabeled
+
+- Project has 2 stage. 
+   - QR Detection
+   - QR Decoding 
+ 
+- Detection being done with YOLOv5. 4 options can be used for decoding process: `pyboof`, `dbr`, `pyzbar`, `cv2` 
+- **Process**: detection ➡️ decoding ➡️ print results
+
+## Installation
+```
+git clone https://github.com/ErenKaymakci/Real-Time-QR-Detection-and-Decoding
+cd Real-Time-QR-Detection-and-Decoding
+pip install -r requirements.txt
+```
+## Usage
+`python main.py`
+
+Detection parameters can be changed in here: 
+
+Decoding options can be comment/uncomment in here: 
