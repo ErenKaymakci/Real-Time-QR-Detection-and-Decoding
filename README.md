@@ -3,8 +3,8 @@
 <a href='https://www.python.org/' target="_blank"><img alt='' src='https://img.shields.io/badge/MIT_Lıcense-100000?style=for-the-badge&logo=&logoColor=white&labelColor=3774A7&color=000000'/></a>
 
 ## Contents   
-- [What is QR Code]()
-- [How QR Works]()
+- [What is QR Code](#what-is-qr-code)
+- [How QR Works](#how-qr-works)
 - [About Project]()
 - [Installation]()
 - [Usage]()
