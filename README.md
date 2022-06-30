@@ -33,7 +33,7 @@ Level H (High) | 30% of data bytes can be restored.
 
 **Masking** is used to break up patterns in the data area that might confuse a scanner, such as large blank areas or misleading features that look like the locator marks. Mask pattern in the image below(blue area) say that which masking is using. Masking pattern and error correction level values on qr can be like these:
 
-
+![](imgs/explained2.png)
 
 
 
