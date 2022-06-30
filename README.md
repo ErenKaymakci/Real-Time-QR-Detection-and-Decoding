@@ -22,8 +22,26 @@ The image in the below shows the constant areas in QR code:
 
 ![image](/imgs/explained.png)
 
+There are critical terms in qr to know. **Error correction, masking, encoding mode**. Error correction ensure that even if qr damaged %x percent, qr code still can be decodable under certain conditions. QR code uses [Red-Solomon error correction](https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction). Of course error correction capacity changes from qr to qr. This is called error correction level. There are 4 Error correction level:
 
-Error correction ensure that even if qr damaged %x percent, qr code can be decodable under certain conditions. QR code uses [Red-Solomon error correction](https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction). Of course error correction capacity changes from qr to qr. This is called error correction level. There are 4 Error correction level:
+Level | Description | 
+--- | --- |
+Level L(Low) | 7% of data bytes can be restored.
+Level M (Medium) | 15% of data bytes can be restored.
+Level Q (Quartile) | 25% of data bytes can be restored.
+Level H (High) | 30% of data bytes can be restored.
+
+**Masking** is used to break up patterns in the data area that might confuse a scanner, such as large blank areas or misleading features that look like the locator marks. Mask pattern in the image below(blue area) say that which masking is using. Masking pattern and error correction level values on qr can be like these:
+
+
+
+
+
+
+
+
+
+
 
 
 
