@@ -23,6 +23,10 @@ The image in the below shows the constant areas in QR code:
 ![image](/imgs/explained.png)
 
 
+Error correction ensure that even if qr damaged %x percent, qr code can be decodable under certain conditions. QR code uses [Red-Solomon error correction](https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction). Of course error correction capacity changes from qr to qr. This is called error correction level. There are 4 Error correction level:
+
+
+
 
 ## About Project
 - **Dataset**: I've mixed my custom data with this dataset: 
@@ -61,8 +65,11 @@ a little bit images from PyBoof dataset: https://boofcv.org/notwiki/regression/f
 
 and my custom data. Test data includes **100 photos** and totally **116 QR codes**. 
 
-![result](/imgs/result.png)
-![result2](/imgs/result2.png)
+<p float="left">
+  <img src="/imgs/result.png" width="500" />
+  <img src="/imgs/result2.png" width="500" /> 
+</p>
+
 ## Conclusion
 It seems that OpenCV is not quite good in qr decoding process. Dbr(Dynamsoft Barcode Reader) is paid framework so if you want to use your project, you need to get the license key. On the other hand, actually PyBoof is free Java library and it can handle DBR. PyBoof gave better results than most of library at perspectived QRs. In summary, my opinion is that I would choose PyBoof because of its free and excellent performance compare the free choices.
 
