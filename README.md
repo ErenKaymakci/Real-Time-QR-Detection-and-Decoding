@@ -64,6 +64,7 @@ and my custom data. Test data includes **100 photos** and totally **116 QR codes
 ![result](/imgs/result.png)
 ![result2](/imgs/result2.png)
 ## Conclusion
+It seems that OpenCV is not quite good in qr decoding process. Dbr(Dynamsoft Barcode Reader) is paid framework so if you want to use your project, you need to get the license key. On the other hand, actually PyBoof is free Java library and it can handle DBR. PyBoof gave better results than most of library at perspectived QRs. In summary, my opinion is that I would choose PyBoof because of its free and excellent performance compare the free choices.
 
 ## License
 [MIT](https://github.com/ErenKaymakci/Real-Time-QR-Detection-and-Decoding/blob/main/LICENSE)
