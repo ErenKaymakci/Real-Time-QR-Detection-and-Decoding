@@ -35,11 +35,15 @@ Level H (High) | 30% of data bytes can be restored.
 
 ![](imgs/explained2.png)
 
+Now let's decode QR by hand. Example QR code includes "AlanTuring" string. 
 
+![](imgs/explained3.png)
 
+If we look the image in the above, right bottom of qr is beginning with **encoding mode**. There are multiple encoding modes as seen in the fig. 1.
+In this example encoding mode is binary which say to us that each block must be 8 bits. Above of encoding mode exist **data length**
+block which is equal to 10(“AlanTuring”). Message placement and encoding path is starts from bottom up and goes like in **fig. 2**. When our data finished, **End** block(4 white pixels) is put. Rest of things is for error correction(E1, E2, E3,..). 
 
-
-
+If we want to get into it a little more:
 
 
 
