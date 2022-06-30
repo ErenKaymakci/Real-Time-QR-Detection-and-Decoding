@@ -46,7 +46,7 @@ block which is equal to 10(“AlanTuring”). Message placement and encoding pat
 **If we want to get into it a little more:**
 ![](imgs/explained4.png)
 
-
+Decoding path is like zigzag pattern. The values in each block are summed then result is compared with ASCII table. When decoder come to end block, it terminate the process.
 
 
 ## About Project
