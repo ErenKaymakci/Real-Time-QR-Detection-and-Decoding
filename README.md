@@ -53,8 +53,16 @@ Decoding options can be changed with comment/uncomment in here:
 https://github.com/ErenKaymakci/Real-Time-QR-Detection-and-Decoding/blob/main/main.py#L21
 
 ## Results
+I created qr decoding test dataset which you can find [here](https://github.com/ErenKaymakci/Real-Time-QR-Detection-and-Decoding/blob/main/test-data/data.zip).
 
+This dataset contains few images from kaggle dataset: https://www.kaggle.com/datasets/hamidl/yoloqrlabeled
 
+a little bit images from PyBoof dataset: https://boofcv.org/notwiki/regression/fiducial/qrcodes_v3.zip
+
+and my custom data. Test data includes **100 photos** and totally **116 QR codes**. 
+
+![result](/imgs/result.png)
+![result2](/imgs/result2.png)
 ## Conclusion
 
 ## License
