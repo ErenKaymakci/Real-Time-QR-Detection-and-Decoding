@@ -22,7 +22,7 @@ The image in the below shows the constant areas in QR code:
 
 ![image](/imgs/explained.png)
 
-There are critical terms in qr to know. **Error correction, masking, encoding mode**. Error correction ensure that even if qr damaged %x percent, qr code still can be decodable under certain conditions. QR code uses [Red-Solomon error correction](https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction). Of course error correction capacity changes from qr to qr. This is called error correction level. There are 4 Error correction level:
+There are critical terms in qr to know. **Error correction, masking, encoding mode**. Error correction ensure that even if qr damaged %x percent, qr code still can be decodable under certain conditions. QR code uses [Reed-Solomon error correction](https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction). Of course error correction capacity changes from qr to qr. This is called error correction level. There are 4 Error correction level:
 
 Level | Description | 
 --- | --- |
@@ -87,8 +87,8 @@ a little bit images from PyBoof dataset: https://boofcv.org/notwiki/regression/f
 and my custom data. Test data includes **100 photos** and totally **116 QR codes**. 
 
 <p float="left">
-  <img src="/imgs/result.png" width="500" />
-  <img src="/imgs/result2.png" width="500" /> 
+  <img src="/imgs/result.png" width="400" />
+  <img src="/imgs/result2.png" width="400" /> 
 </p>
 
 ## Conclusion
