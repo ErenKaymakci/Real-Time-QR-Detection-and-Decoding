@@ -57,7 +57,8 @@ https://www.kaggle.com/datasets/hamidl/yoloqrlabeled
    - QR Detection
    - QR Decoding 
  
-- Detection being done with YOLOv5. 4 options can be used for decoding process: `pyboof`, `dbr`, `pyzbar`, `cv2` 
+- Detection being done with YOLOv5. 
+- 4 options can be used for decoding process: `pyboof`, `dbr`, `pyzbar`, `cv2` 
 - **Process**: detection ➡️ decoding ➡️ print results
 
 ## Installation
