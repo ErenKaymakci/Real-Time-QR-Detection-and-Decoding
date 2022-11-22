@@ -68,6 +68,10 @@ cd Real-Time-QR-Detection-and-Decoding
 pip install -r requirements.txt
 ```
 ## Usage
+Write your YOLOv5 model path to here (defaultly in /model directory)
+
+https://github.com/ErenKaymakci/Real-Time-QR-Detection-and-Decoding/blob/main/yolo.py#L14
+
 `python main.py`
 
 Detection parameters can be changed in here: 
